@@ -1,0 +1,168 @@
+@CHARSET "UTF-8";
+
+/**
+*********************
+* Dracos Linux Team
+*********************
+**/
+
+@media only screen and (max-width:767px) {
+/* Navigation */
+.header {
+    width: 100%;
+    left: 0;
+    background: transparent;
+}
+.navigation-menu {
+	background:#1b252b;
+	width:200px;
+	height: 100%;
+	display: block;
+	position: fixed;
+	right:-115%;
+	transition: right 0.2s linear;
+	overflow-y: auto;
+}
+.navigation-menu.visible {
+	right: 0px;
+	transition: right 0.2s linear;
+	z-index: 1;
+	padding-top: 30px;
+}
+.nav_bg {
+	display:inline-block;
+	vertical-align: middle;
+	width:auto;
+	height:55px;
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	background: transparent;
+	padding:0px 10px;
+	z-index: 2;
+	font-size:25px;
+	color:#6d6f73;
+	line-height:58px;
+}
+.nav_bar {
+	vertical-align: middle;
+	height:100%;
+	cursor: pointer;
+	height: 55px;
+	width:22px;
+}
+.navigation-menu ul {
+	padding-top:10px;
+}
+.navigation-menu li {
+	display: block;
+	float: none;
+	border-bottom: 1px solid #263238;
+}
+.navigation-menu li a {
+	display: block;
+	text-transform:capitalize;
+	padding: 5px;
+    line-height: 25px;
+	font-size:13px;
+}
+.navigation-menu .fa {
+ 	display: inline-block;
+}
+
+/* Main Wrapper */
+.colcuk1 {
+	width: 87%;
+	top: 50px;
+}
+.short-desc li a {
+	padding: 4px;
+}
+.short-desc a img {
+	width: 40px; height: 40px;
+}
+.main {
+	width: 80% !important;
+	margin: .7em 0 !important;
+}
+.team {
+	width: 90% !important;
+	margin: 0em 0em 1em 0em !important;
+}
+}
+@media only screen and (max-width:1219px) {
+
+}
+@media screen and (max-width: 1024px){
+#ftrbox {
+	width: 100%;
+	padding: 2em 0;
+}
+.main {
+	width: 28%;
+	padding: 0;
+}
+}
+@media only screen and (width:768px) {
+.header {
+	left: 0;
+}
+.team {
+	width: 30% !important;
+}
+.navigation-menu {
+	right: 0;
+}
+.dld {
+	width: 44% !important;
+}
+}
+@media only screen and (max-width: 736px) {
+.dld {
+	width: 44% !important;
+}	
+}
+@media only screen and (max-width:667px) {
+.colcuk1 {
+	top: 50px !important;
+}
+.abotext {
+	height: auto;
+}
+.footer-content {
+	display: inline-block;
+    padding: 25px;
+    width: auto;
+}
+.footcol {
+	width: 100%;
+	padding: 0;
+	height: auto;
+	margin: 0 0 20px 0;
+}
+.back-top {
+	right: 20px;
+}
+.dld {
+	width: 44% !important;
+}
+}
+@media screen and (max-width:600px) {
+
+}
+@media only screen and (max-width:480px) {
+.colcuk1 {
+	top: 80px;
+}
+.short-desc {
+	padding: 10px;
+}
+.short-desc ul {
+	height: 45px;
+}
+}
+@media only screen and (max-width:568px) {
+.dld {
+	width: 90% !important;
+}
+}

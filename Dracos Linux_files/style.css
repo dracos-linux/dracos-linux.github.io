@@ -1,0 +1,65 @@
+/* OpenSans */
+
+@font-face {
+  font-family: 'Open Sans Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Open Sans Light'), url('../fonts/OpenSans-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Open Sans'), url('../fonts/OpenSans-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans Semi';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Open Sans Semi Bold'), url('../fonts/OpenSans-Semibold.woff') format('woff');
+}
+
+.select {
+  position: relative;
+  display: block;
+  width: 20em;
+  height: 3em;
+  line-height: 3;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: .25em;
+  display: inline-block;
+  display: -webkit-inline-box;
+  border: 1px solid #667780;
+  margin: 1em 0;
+  font-family: 'Open Sans Light', sans-serif;
+}
+select {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 0 0 .5em;
+  color: #fff;
+  cursor: pointer;
+}
+select::-ms-expand {
+  display: none;
+}
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 1em;
+  background: #34495e;
+  pointer-events: none;
+}
+.select:hover::after {
+  color: #f39c12;
+}
+.select::after {
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
